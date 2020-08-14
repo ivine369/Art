@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '81+%%wlxb19i+1!2u0ybub#+&f2+#)cb@*z=)#tu43sd9hu0pm'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1','angstagram.herokuapp.com']
 'stategems.herokuapp.com'
