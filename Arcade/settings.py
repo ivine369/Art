@@ -27,6 +27,7 @@ SECRET_KEY = '81+%%wlxb19i+1!2u0ybub#+&f2+#)cb@*z=)#tu43sd9hu0pm'
 DEBUG = False
 
 ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1','angstagram.herokuapp.com']
+stategems.herokuapp.com
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
