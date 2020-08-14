@@ -2,7 +2,7 @@
 
 It is personal gallery application that you display your photos so that others can see.
 
-31st August 2020.
+31st August 2020
 
 ### By Ivine Kemuma
 
