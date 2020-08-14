@@ -1,6 +1,6 @@
 # ART
 
-It is personal gallery application that you display your photos so that others can see
+It is personal gallery application that you display your photos so that others can see.
 
 31st August 2020
 
@@ -12,7 +12,7 @@ It is personal gallery application that you display your photos so that others c
 ### Setup/Installation Requirements
 
 * git clone https://github.com/ivine369/Art
-* cd Arcade
+* cd Arcade.
 * pip install -r requirements.txt
 * create database
 * python manage.py runserver
