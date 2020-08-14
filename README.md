@@ -19,7 +19,7 @@ It is personal gallery application that you display your photos so that others c
 
 ### Known Bugs
 
- There are no issues that have been resolved. If you want to let us know Outline any issues that would impact use of my application. Share any errors that are in place via my email
+ There are no issues that have been resolved. If you want to let us know Outline any issues that would impact use of my application. Share any errors that are in place via my email.
  
 
 ### Technologies Used
