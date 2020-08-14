@@ -29,6 +29,7 @@ DEBUG = False
 ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1','angstagram.herokuapp.com']
 stategems.herokuapp.com
 
+
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
