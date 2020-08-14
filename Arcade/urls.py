@@ -20,7 +20,7 @@ from django.conf.urls.static import static
 # aded patterns
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^',include('gallery.urls',namespace='gallery') ),
+    url(r'^',include('Pictures.urls',namespace='Pictures') ),
 ]
 #settings debug
 if settings.DEBUG:
