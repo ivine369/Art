@@ -1,5 +1,4 @@
 from django.db import models
-from django.core.urlresolvers import reverse
 
 # Create your models here.
 #category model
@@ -21,7 +20,6 @@ class Category(models.Model):
 
 #picture model
 class Picture(models.Model):
-    category = models.ForeignKey(Category,related_name='pictures')
     name = models.CharField(max_length=200, db_index=True)
     slug = models.SlugField(max_length=200, db_index=True)
     image = models.ImageField(upload_to='pictures/%Y/%m/%d',blank=True)
