@@ -29,6 +29,7 @@ It is personal gallery application that you display your photos so that others c
 * Javascript
 * Postgres (for database)
 
+
 ### Support and contact details
 
 If you run into any issues or have questions, ideas or concerns,
