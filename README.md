@@ -7,7 +7,7 @@ It is personal gallery application that you display your photos so that others c
 ### By Ivine Kemuma
 
 ### Description
- This is an application that displays your photos for others to see.It has the functionality of copying images.
+ This is an application that displays your photos for others to see.It has the functionality of copying images
 
 ### Setup/Installation Requirements
 
