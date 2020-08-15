@@ -8,7 +8,7 @@ body {
 }
 
 h1, h2, h3, h4, h5 , h6 { 
-    font-family: 'Ubuntu', sans-serif; font-weight:normal;
+    font-family:  sans-serif; font-weight:normal;
 }
 
 a {
@@ -31,14 +31,14 @@ a {
 }
 
 #subheader {
-    background:#ececec;
+    background: white;
     color:#444;
     padding:15px 100px;
     overflow:auto;
 }
 
 #header .logo {
-    font-family: 'Ubuntu', sans-serif;
+    font-family:  sans-serif;
     float:left;
     color:#333;
     font-size:22px;
@@ -78,12 +78,12 @@ a {
 }
 
 #sidebar ul li.selected {
-    background:#5993bb;
+    background: lightseagreen;
     border-radius:4px;
 }
 
 #sidebar ul li.selected a {
-    color:#fff;
+    color: white;
 }
 
 #main {
@@ -131,5 +131,5 @@ a {
 }
 
 #header{
-    background-color: #efefef;
+    background-color: white;
 }

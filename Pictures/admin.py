@@ -3,14 +3,11 @@ from .models import Category,Picture
 
 # Register your models here.
 class CategoryAdmin(admin.ModelAdmin):
-    list_display = ['name', 'slug']
-    prepopulated_fields = {'slug': ('name',)}
+    list_display = ['name', 'id']
 admin.site.register(Category,CategoryAdmin)
 
 
 class PictureAdmin(admin.ModelAdmin):
-    list_display = ['name', 'slug','category', 'location', 'created', 'updated']
-    list_filter = [ 'created', 'updated','category']
+    list_display = ['name', 'id','category', 'location', 'created', 'updated']
+    admin.site= ['created', 'updated','category']
     list_editable = ['location','category']
-    prepopulated_fields = {'slug': ('name',)}
-admin.site.register(Picture,PictureAdmin)
