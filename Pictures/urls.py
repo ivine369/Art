@@ -5,6 +5,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 
+
 #url patterns
 urlpatterns = [
     url(r'^$', views.picture_list,name='picture_list'),
