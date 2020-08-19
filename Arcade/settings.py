@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'whitenoise.runserver_nostatic',
     'bootstrap3',
+    'Arcade',
 ]
 
 SITE_ID = 1
@@ -85,12 +86,12 @@ WSGI_APPLICATION = 'Arcade.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': "Arcade",
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': "arcade",
         'USER': "kiiru",
         'PASSWORD': "Access",
         'HOST':"localhost",
-        #'PORT': os.environ.get('DB_PORT'),
+        'PORT': 5432,
     }
 }
 
@@ -126,7 +127,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Africa/Nairobi'
 
 USE_I18N = True
 

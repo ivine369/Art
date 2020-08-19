@@ -5,7 +5,7 @@ from .models import Category, Picture
 def picture_list(request):
     categories = Category.objects.all()
     pictures = Picture.objects.filter()
-    return render(request, 'Pictures/picture/list.html',{'categories': categories,'pictures': pictures})
+    return render(request, 'list.html',{'categories': categories,'pictures': pictures})
 
 
 def picture_detail(request, id):
