@@ -14,3 +14,6 @@ def picture_detail(request, id):
     return render(request, 'list.html',{'categories': categories,'pictures': pictures})
 def index(request):
     return HttpResponse("Hello, world. You're at the picture_list.")    
+
+    return render(request, 'auth_lifecycle/user_profile.html',
+           context_instance=RequestContext(request))
